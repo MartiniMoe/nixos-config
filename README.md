@@ -1,7 +1,6 @@
 # NixOS Configuration files
 
 ## ToDo:
-- git identity
 - git crypt
 - nextcloud-client config?
 - vpn-config?
