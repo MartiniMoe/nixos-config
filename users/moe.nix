@@ -106,6 +106,7 @@
   };
 
   # Commandline Tools
+  programs.htop.enable = true;
   programs.bat.enable = true;
   programs.exa.enable = true;
   programs.zsh.shellAliases = {
