@@ -73,22 +73,24 @@
 
   # Terminal / Shell
   programs.bash.enable = true;
-  programs.zsh.enable = true;
-  programs.zsh.oh-my-zsh = {
+  programs.zsh = {
     enable = true;
-    plugins = [ "git" "man" "pass" ];
+    oh-my-zsh = {
+      enable = true;
+      plugins = [ "git" "man" "pass" ];
+    };
+    plugins = [
+      {
+        name = "powerlevel10k";
+       src = pkgs.zsh-powerlevel10k;
+        file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
+      }
+    ];
+    initExtra = "source ~/.p10k.zsh";
   };
-  programs.zsh.plugins = [
-    {
-      name = "powerlevel10k";
-      src = pkgs.zsh-powerlevel10k;
-      file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
-    }
-  ];
   home.file = {
     ".p10k.zsh".source = ./p10k-config;
   };
-  programs.zsh.initExtra = "source ~/.p10k.zsh";
   programs.gnome-terminal = {
     enable = true;
     showMenubar = false;
@@ -103,7 +105,16 @@
     };
   };
 
-  #Chromium
+  # Commandline Tools
+  programs.bat.enable = true;
+  programs.exa.enable = true;
+  programs.zsh.shellAliases = {
+    ls = "exa --icons --group-directories-first";
+    ll = "exa -l --icons --group-directories-first";
+    cat = "bat";
+  };
+
+  # Chromium
   programs.chromium.enable = true;
 
   # Firefox
