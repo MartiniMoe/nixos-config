@@ -50,8 +50,6 @@
 
   # Users
   programs.zsh.enable = true;
-  #users.defaultUserShell = pkgs.zsh;
-  #users.mutableUsers = false;
   users.users.moe = {
     isNormalUser = true;
     extraGroups = [ "wheel" ];
