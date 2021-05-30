@@ -46,6 +46,13 @@
 
   # DCONF Settings
   dconf.settings = {
+    "org/gnome/shell" = {
+      "disabled-extensions" = [];
+      "enabled-extensions" = [
+        "caffeine@patapon.info"
+        "gsconnect@andyholmes.github.io"
+      ];
+    };
     "org/gnome/settings-daemon/plugins/color" = {
       "night-light-enabled" = true;
     };
