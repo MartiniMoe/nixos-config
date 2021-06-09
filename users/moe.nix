@@ -57,6 +57,10 @@
     "org/gnome/settings-daemon/plugins/color" = {
       "night-light-enabled" = true;
     };
+    "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0" = {
+      "binding" = "<Super>Return";
+      "command" = "gnome-terminal";
+    };
     "org/gnome/desktop/input-sources" = {
       "current" = "uint32 0";
       "sources" = [
