@@ -39,6 +39,7 @@
     inkscape
     godot
     godot-export-templates
+    vlc
 
     libreoffice-fresh
     nextcloud-client
