@@ -1,6 +1,7 @@
 # NixOS Configuration files
 
 ## ToDo:
+- user config splitten
 - git crypt
 - nextcloud-client config?
 - vpn-config?
@@ -8,5 +9,4 @@
 - ssh keys?
 - selinux?
 - gpg keys?
-- git repos?
-  - password-store?
+- password-stores?
