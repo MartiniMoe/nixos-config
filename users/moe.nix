@@ -85,12 +85,12 @@
     enable = true;
     oh-my-zsh = {
       enable = true;
-      plugins = [ "git" "man" "pass" ];
+      plugins = [ "git" "man" ];
     };
     plugins = [
       {
         name = "powerlevel10k";
-       src = pkgs.zsh-powerlevel10k;
+        src = pkgs.zsh-powerlevel10k;
         file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
       }
     ];
