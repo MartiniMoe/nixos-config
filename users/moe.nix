@@ -23,7 +23,7 @@
 
     python3Minimal
     git-crypt
-    pass
+    gopass
     ansible
 
     zsh-powerlevel10k         # ZSH theme
