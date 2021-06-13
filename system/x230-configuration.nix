@@ -6,6 +6,7 @@
   ];
 
   powerManagement.enable = true;
+  powerManagement.cpuFreqGovernor = "performance";
   
   # Networking
   networking.interfaces.enp0s25.useDHCP = true;
