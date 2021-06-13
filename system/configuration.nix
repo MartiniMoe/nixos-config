@@ -63,6 +63,7 @@
     mkpasswd
     ranger
     git
+    git-crypt
     gnupg
     vim
   ];
