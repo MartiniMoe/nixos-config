@@ -5,21 +5,22 @@
   programs.bash.enable = true;
   programs.zsh = {
     enable = true;
-    oh-my-zsh = {
+    prezto = {
       enable = true;
-      plugins = [ "git" "man" ];
+      prompt.theme = "skwp";
+      pmodules = [
+        "environment"
+        "terminal"
+        "editor"
+        "history"
+        "directory"
+        "spectrum"
+        "utility"
+        "completion"
+        "prompt"
+        "git"
+      ];
     };
-    plugins = [
-      {
-        name = "powerlevel10k";
-        src = pkgs.zsh-powerlevel10k;
-        file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
-      }
-    ];
-    initExtra = "source ~/.p10k.zsh";
-  };
-  home.file = {
-    ".p10k.zsh".source = ./p10k-config;
   };
 
   # Commandline Tools
@@ -30,5 +31,6 @@
     ls = "exa --icons --group-directories-first";
     ll = "exa -l --icons --group-directories-first";
     cat = "bat";
+    gst = "git status";
   };
 }

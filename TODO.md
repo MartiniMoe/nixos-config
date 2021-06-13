@@ -8,6 +8,5 @@
 - gpg keys?
 - password-stores?
 - gopass shell completion
-- prezto statt oh-my-zsh?
 - starship.rs?
 - nnn statt ranger?
