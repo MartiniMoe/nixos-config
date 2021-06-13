@@ -1,5 +1,4 @@
 # ToDo:
-- user config splitten
 - git crypt
 - nextcloud-client config?
 - vpn-config?
