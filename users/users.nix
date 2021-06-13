@@ -1,5 +1,5 @@
 {
   imports = [
-    ./moe.nix
+    ./moe/main.nix
   ];
 }
