@@ -25,6 +25,7 @@
     python3Minimal
     gopass
     ansible
+    upterm
 
     zsh-powerlevel10k         # ZSH theme
     meslo-lgs-nf              # Patched Nerd Fonts for ZSH theme
