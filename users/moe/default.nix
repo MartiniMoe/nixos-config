@@ -60,6 +60,7 @@
   home.sessionVariables = {
     MOZ_ENABLE_WAYLAND = 1;
     EDITOR = "vim";
+    VISUAL = "vim";
     QT_QPA_PLATFORM = "wayland";
   };
 
