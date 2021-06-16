@@ -27,8 +27,6 @@
     ansible
     upterm
 
-    zsh-powerlevel10k         # ZSH theme
-    meslo-lgs-nf              # Patched Nerd Fonts for ZSH theme
     nerdfonts
     noto-fonts
     noto-fonts-extra
