@@ -2,7 +2,7 @@
 
 pushd ~/dotfiles
 
-./apply-system.sh
 ./apply-user.sh
+./apply-system.sh
 
 popd

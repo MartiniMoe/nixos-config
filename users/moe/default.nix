@@ -26,6 +26,7 @@
     gopass
     ansible
     upterm
+    nvd
 
     nerdfonts
     noto-fonts
