@@ -23,6 +23,9 @@
       libvdpau-va-gl
     ];
   };
+
+  # Microcode updates
+  hardware.cpu.intel.updateMicrocode = true;
   
   # x230 Display Mod Workaround
   systemd.tmpfiles.rules = [
