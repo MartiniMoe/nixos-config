@@ -10,4 +10,3 @@
 - gopass shell completion
 - starship.rs?
 - nnn statt ranger?
-- Utilize https://github.com/NixOS/nixos-hardware
