@@ -7,6 +7,5 @@
 - selinux?
 - gpg keys?
 - password-stores?
-- gopass shell completion
 - starship.rs?
 - nnn statt ranger?
