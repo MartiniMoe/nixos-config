@@ -7,7 +7,6 @@
     gnome.dconf-editor
     gnome.meld
     gnomeExtensions.caffeine
-    gnomeExtensions.gsconnect
   ];
 
   # DCONF Settings
