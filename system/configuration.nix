@@ -58,7 +58,7 @@
   programs.zsh.enable = true;
   users.users.moe = {
     isNormalUser = true;
-    extraGroups = [ "wheel" ];
+    extraGroups = [ "wheel" "networkmanager" ];
     hashedPassword = "$6$diHSunVCS8rpWzZP$EK6eatrlDUogE.Gk3az8zcebb.1gne2qiXbEtpX3VEVIdtkWvW2C8YL6IrCLSSbllGHhXRnCqeFfQTr4RE./F/";
     shell = pkgs.zsh;
   };
