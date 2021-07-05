@@ -20,6 +20,9 @@
         "prompt"
         "git"
       ];
+      extraConfig = ''
+        unsetopt share_history
+      '';
     };
   };
 
