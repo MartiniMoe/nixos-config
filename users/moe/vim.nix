@@ -17,9 +17,14 @@
       set mouse=r
       set number relativenumber
       set nocompatible
+      call neomake#configure#automake('nrwi', 500)
       '';
     plugins = with pkgs.vimPlugins; [
       vim-nix
+      neomake
+    ];
+    extraPackages = with pkgs; [
+      yamllint
     ];
   };
 }
