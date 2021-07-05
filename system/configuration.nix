@@ -67,6 +67,7 @@
   environment.systemPackages = with pkgs; [
     wget
     mkpasswd
+    pwgen
     ranger
     git
     git-crypt
