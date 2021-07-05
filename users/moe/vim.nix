@@ -1,19 +1,19 @@
 { config, pkgs, lib, ... }:
 
 {
-  # VIM
-  programs.vim = {
+  # NeoVIM
+  programs.neovim = {
     enable = true;
-    settings = {
-      tabstop = 4;
-      shiftwidth = 4;
-      expandtab = true;
-      mouse = "r";
-      number = true;
-      relativenumber = true;
-    };
+    viAlias = true;
+    vimAlias = true;
+    vimdiffAlias = true;
     extraConfig = ''
       set clipboard=unnamedplus
+      set tabstop=4
+      set shiftwidth=4
+      set expandtab
+      set mouse=r
+      set number relativenumber
       '';
   };
 }
