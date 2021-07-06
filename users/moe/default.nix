@@ -35,7 +35,8 @@
 
     blender
     krita
-    gimp
+    glimpse
+    graphviz # needed by glimpse...
     inkscape
     godot
     godot-export-templates
