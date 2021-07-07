@@ -41,13 +41,11 @@
     godot
     godot-export-templates
     vlc
+    ungoogled-chromium
 
     libreoffice-fresh
     nextcloud-client
   ];
-
-  # Chromium
-  programs.chromium.enable = true;
   
   # GPG
   programs.gpg.enable = true;
