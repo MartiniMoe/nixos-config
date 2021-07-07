@@ -27,4 +27,10 @@
       yamllint
     ];
   };
+
+  # Session Variables
+  home.sessionVariables = {
+    EDITOR = "vim";
+    VISUAL = "vim";
+  };
 }

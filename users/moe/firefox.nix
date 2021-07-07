@@ -21,7 +21,14 @@
         "media.ffvpx.enabled" = false;
         "media.rdd-vpx.enabled" = false;
         "media.navigator.mediadatadecoder_vpx_enabled" = true;
+        "security.sandbox.content.level" = 0;
       };
     };
+  };
+
+  # Session Variables
+  home.sessionVariables = {
+    MOZ_ENABLE_WAYLAND = 1;
+    MOZ_DISABLE_RDD_SANDBOX = 1;
   };
 }
