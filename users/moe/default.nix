@@ -6,6 +6,7 @@
     ./terminal.nix
     ./vim.nix
     ./git.nix
+    ./ssh.nix
     ./firefox.nix
   ];
 
