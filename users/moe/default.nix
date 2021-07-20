@@ -21,6 +21,7 @@
     discord
     tdesktop
     signal-desktop
+    element-desktop
     transmission
 
     python3Minimal
