@@ -82,6 +82,9 @@
     podman-compose
   ];
 
+  # ZSH link for system package completion
+  environment.pathsToLink = [ "/share/zsh" ];
+
   # Maintenance settings
   system.autoUpgrade.enable = true;
   nix.gc.automatic = true;

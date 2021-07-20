@@ -5,24 +5,30 @@
   programs.bash.enable = true;
   programs.zsh = {
     enable = true;
+    enableAutosuggestions = true;
+    enableCompletion = true;
+    enableSyntaxHighlighting = true;
+    history = {
+      share = false;
+    };
     prezto = {
       enable = true;
-      prompt.theme = "skwp";
       pmodules = [
-        "environment"
-        "terminal"
-        "editor"
-        "history"
-        "directory"
-        "spectrum"
-        "utility"
         "completion"
-        "prompt"
-        "git"
       ];
-      extraConfig = ''
-        unsetopt share_history
-      '';
+    };
+  };
+
+  # Prompt
+  programs.starship = {
+    enable = true;
+    enableBashIntegration = true;
+    enableZshIntegration = true;
+    settings = {
+      add_newline = false;
+      line_break = {
+        disabled = true;
+      };
     };
   };
 

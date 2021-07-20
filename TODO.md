@@ -7,6 +7,4 @@
 - selinux?
 - gpg keys?
 - password-stores?
-- starship.rs?
-- nnn statt ranger?
 - ripgrep?
