@@ -35,5 +35,6 @@
     ll = "exa -l --icons --group-directories-first";
     cat = "bat";
     gst = "git status";
+    docker-compose = "podman-compose";
   };
 }

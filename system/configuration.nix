@@ -54,6 +54,12 @@
     pulse.enable = true;
   };
 
+  # Virtualisation
+  virtualisation.podman = {
+    enable = true;
+    dockerCompat = true;
+  };
+
   # Users
   programs.zsh.enable = true;
   users.users.moe = {
@@ -73,6 +79,7 @@
     git-crypt
     gnupg
     vim
+    podman-compose
   ];
 
   # Maintenance settings
