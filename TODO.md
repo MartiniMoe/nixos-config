@@ -9,3 +9,4 @@
 - password-stores?
 - starship.rs?
 - nnn statt ranger?
+- ripgrep?
