@@ -24,10 +24,12 @@
     element-desktop
     transmission
 
-    python3Minimal
+    python3Full
+    texlive.combined.scheme-full
     gopass
     ansible
     upterm
+    zellij
     nvd
 
     nerdfonts
