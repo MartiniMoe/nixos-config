@@ -15,6 +15,7 @@
   # Bootloader
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
+  boot.kernelParams = [ "intel_pstate=active" ];
 
   # Networking
   networking.useDHCP = false;
