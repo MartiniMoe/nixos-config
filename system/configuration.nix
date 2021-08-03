@@ -37,13 +37,17 @@
   console.useXkbConfig = true;
 
   # Desktop Environment
-  services.xserver.enable = true;
-  services.xserver.layout = "de";
-  services.xserver.xkbVariant = "neo";
+  services.xserver = {
+    enable = true;
+    layout = "de";
+    xkbVariant = "neo";
+  };
 
   # Printing
-  services.printing.enable = true;
-  services.printing.drivers = [ pkgs.hplip ];
+  services.printing = {
+    enable = true;
+    drivers = [ pkgs.hplip ];
+  };
 
   # Sound
   hardware.pulseaudio.enable = false;
