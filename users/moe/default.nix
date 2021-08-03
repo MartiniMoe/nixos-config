@@ -51,6 +51,7 @@
 
     libreoffice-fresh
     nextcloud-client
+    steam-run
   ];
   
   # GPG
