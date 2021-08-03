@@ -24,6 +24,8 @@
     element-desktop
     transmission
 
+    rustup
+    gcc
     python3Full
     texlive.combined.scheme-full
     gopass
