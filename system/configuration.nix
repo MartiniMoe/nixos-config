@@ -64,12 +64,13 @@
     enable = true;
     dockerCompat = true;
   };
+  virtualisation.virtualbox.host.enable = true;
 
   # Users
   programs.zsh.enable = true;
   users.users.moe = {
     isNormalUser = true;
-    extraGroups = [ "wheel" "networkmanager" ];
+    extraGroups = [ "wheel" "networkmanager" "vboxusers" ];
     hashedPassword = "$6$diHSunVCS8rpWzZP$EK6eatrlDUogE.Gk3az8zcebb.1gne2qiXbEtpX3VEVIdtkWvW2C8YL6IrCLSSbllGHhXRnCqeFfQTr4RE./F/";
     shell = pkgs.zsh;
   };
@@ -91,8 +92,8 @@
   environment.pathsToLink = [ "/share/zsh" ];
 
   # Maintenance settings
-  system.autoUpgrade.enable = true;
-  nix.gc.automatic = true;
+  #system.autoUpgrade.enable = true;
+  #nix.gc.automatic = true;
   
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
