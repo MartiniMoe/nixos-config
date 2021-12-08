@@ -19,6 +19,10 @@
 
   # Networking
   networking.useDHCP = false;
+  services.avahi = {
+    enable = true;
+    nssmdns = true;
+  };
 
   # Internationalization
   time.timeZone = "Europe/Berlin";
