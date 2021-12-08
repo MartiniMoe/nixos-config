@@ -39,7 +39,9 @@
     noto-fonts-extra
     noto-fonts-emoji
 
+    prusa-slicer
     blender
+    openscad
     krita
     glimpse
     graphviz # needed by glimpse...
